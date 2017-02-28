@@ -92,6 +92,8 @@
 		this.createNewCircle(document.body.clientWidth/2, document.body.clientHeight/2);
 	}
 
+	document.getElementById('svg').setAttribute('height', '100%');
+	document.getElementById('svg').setAttribute('width', '100%');
 	var playground = new PlayGround();
 	setInterval(playground.loop, 15);
 

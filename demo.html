@@ -8,7 +8,7 @@
 
 	<script>
 	//using immediate function to avoid global variable issues
-	( function(){
+	function mouseDownTime(){
 
 		var mousedown_time;
 
@@ -25,9 +25,11 @@
 			console.log('You held your mouse down for', time_pressed, 'miliseconds.');
 		}
 
-		//technically we don't even need the mousedown variable but we're leaving it there for now..
+			//technically we don't even need the mousedown variable but we're leaving it there for now..
+	}
 
-	})();
+	mouseDownTime();
+
 		
 	</script>
 
